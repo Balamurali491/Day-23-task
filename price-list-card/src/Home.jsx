@@ -1,11 +1,12 @@
 import React,{ useState } from 'react'
+
 function Home(props) {
 
  const [quantity,setQuantity]=useState();
 
    const handleDecrement =()=>{
     if (quantity>1)
-    setQuantity(preCount =>preCount -1);}
+    setQuantity(preCount =>preCount -1)}
     const handleIncrement =()=>{
       if (quantity<1)
       setQuantity(preCount =>preCount +1)}
